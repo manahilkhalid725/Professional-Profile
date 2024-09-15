@@ -1,0 +1,5 @@
+- Added HTML structure for a professional profile page, including sections for education, projects, certifications, social media, hobbies, skills, and contact information.
+- Implemented a responsive design with a clean layout using CSS for styling.
+- Integrated Font Awesome for social media icons.
+- Added JavaScript functionality for dynamic section display and navigation link highlighting.
+- Structured project to include separate CSS and JavaScript files for improved organization.
