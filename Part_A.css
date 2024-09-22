@@ -12,6 +12,14 @@ body {
     color: white;
 }
 
+.profile-line {
+    width: 90px; 
+    height: 2px;
+    background-color: #fff;
+    margin: 10px auto;
+    border: none; 
+}
+
 .circle {
     display: inline-block;
     border-radius: 50%;
@@ -165,5 +173,3 @@ section {
 #certifications {
     background-color: #FFD3AC;
 }
-
-

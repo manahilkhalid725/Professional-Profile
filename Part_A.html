@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="Part_A.css"> 
+    <title>Professional Profile</title>
+    <link rel="stylesheet" href="Part_A.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="Part_A.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="circle">
-            <img src="850_6727-PRINT.jpg" alt="Profile Image">
+            <img id="profile-picture" alt="Profile Image">
         </div>
-        <div class="top">Manahil Khalid
-            <hr class="top-line">
-        </div>
+        <div class="top" id="profile-name"></div>
+        <hr class="profile-line">
     </div>
     <nav>
         <ul class="nav-links">
@@ -28,198 +28,13 @@
         </ul>
     </nav>
     <div class="main">
-        <!-- Education Section -->
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li class="school"><strong>Divisional Public School</strong></li>
-                <li>Matriculation in Science</li>
-                <li class="date"><em>(2018-2020)</em></li>
-                <li class="school"><strong>Govt Girls College</strong></li>
-                <li>FSc Pre Engineering</li>
-                <li class="date"><em>(2020-2022)</em></li>
-                <li class="school"><strong>ITU Lahore</strong></li>
-                <li>Bachelor's in Computer Science</li>
-                <li class="date"><em>(2022-Present)</em></li>
-                <li class="details">
-                    Pursuing a Bachelor's degree with a focus on software development, algorithms, and data structures. Coursework includes advanced programming, software engineering, and database management. 
-                </li>
-            </ul>
-        </section>
-        <!-- Project Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <strong><u>Go FOOD</u></strong> - <em>May 2024</em>
-                    <p>
-                        Developed a sophisticated and responsive website for a food delivery platform using Tailwind CSS and PHP Laravel. Key features included:
-                    </p>
-                    <ul>
-                        <li><strong>User Authentication:</strong> Implemented secure login and registration functionalities to manage user accounts and protect sensitive information.</li>
-                        <li><strong>Real-Time Order Tracking:</strong> Integrated a real-time tracking system that allows users to monitor their orders from preparation to delivery.</li>
-                        <li><strong>Responsive Design:</strong> Employed Tailwind CSS to create a responsive layout, ensuring seamless performance and an optimal user experience on both desktop and mobile devices.</li>
-                        <li><strong>Performance Optimization:</strong> Focused on optimizing performance to handle high traffic volumes and ensure fast load times, enhancing overall user satisfaction.</li>
-                    </ul>
-                    <p>
-                        This project demonstrates proficiency in both front-end and back-end development, reflecting an understanding of modern technologies and best practices.
-                    </p>
-                </li>
-                <br>
-                <li>
-                    <strong><u>Chess Game</u></strong> - <em>October 2023</em>
-                    <p>
-                        Designed and implemented an Object-Oriented Programming (OOP) chess game. Key features included:
-                    </p>
-                    <ul>
-                        <li><strong>Class Design:</strong> Created distinct classes for chess pieces, the board, and game logic, ensuring clear separation of concerns and maintainability.</li>
-                        <li><strong>Rule Enforcement:</strong> Implemented accurate rule enforcement to handle various game scenarios, including piece movements and special rules.</li>
-                        <li><strong>User Interface:</strong> Developed a user-friendly graphical interface to enhance engagement and facilitate an intuitive gaming experience.</li>
-                    </ul>
-                    <p>
-                        This project showcases skills in object-oriented design and complex algorithm development, emphasizing the importance of UI design and user interaction.
-                    </p>
-                </li>
-                <br>
-                <li>
-                    <strong><u>Ludo Game</u></strong> - <em>December 2023</em>
-                    <p>
-                        Developed a Ludo game from scratch using Object-Oriented Programming principles and SFML for graphical elements. Key features included:
-                    </p>
-                    <ul>
-                        <li><strong>Object-Oriented Design:</strong> Applied OOP principles to build a modular game structure, including classes for game components and player interactions.</li>
-                        <li><strong>Game Mechanics:</strong> Implemented core game mechanics such as dice rolls, player movements, and win conditions for an engaging game.</li>
-                        <li><strong>Visual Elements:</strong> Utilized SFML to create dynamic graphics and animations, enhancing the visual appeal and interactive experience.</li>
-                    </ul>
-                    <p>
-                        This project highlights proficiency in C++ and SFML, demonstrating the integration of graphical components with game logic and interactive design.
-                    </p>
-                </li>
-                <br>
-                <li>
-                    <strong><u>Other Games</u></strong>
-                    <p>
-                        Designed and developed several classic games including Tic-Tac-Toe, Snake, Bead 12, and Minesweeper using C++. Key aspects included:
-                    </p>
-                    <ul>
-                        <li><strong>Gameplay Mechanics:</strong> Implemented core gameplay features and rules to ensure functionality and challenge.</li>
-                        <li><strong>User Interface:</strong> Developed intuitive interfaces to enhance user interaction and engagement.</li>
-                        <li><strong>Efficient Code Implementation:</strong> Focused on writing clean, efficient code for optimal performance and maintainability.</li>
-                    </ul>
-                    <p>
-                        These projects demonstrate a broad range of programming skills and the ability to tackle various game development challenges, reflecting experience in designing and implementing functional games.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <!-- Objective Section -->
-        <section id="objective">
-            <h2>Objective</h2>
-            <p>
-                As an enthusiastic Computer Science student, I am eager to leverage my programming skills and problem-solving abilities to contribute effectively to innovative projects. I aim to apply theoretical knowledge to practical challenges, continuously improving through hands-on experience and dedication. My goal is to become a proficient software developer, driving technological advancements and solving real-world problems.
-            </p>
-        </section>
-        <!-- hobbies Section -->
-        <section id="hobbies">
-            <h2>Hobbies & Interests</h2>
-            <p>
-                Outside of my professional endeavors, I am deeply passionate about a range of activities that contribute to my personal growth and well-being. Each of these interests not only enriches my life but also enhances my professional skills and perspectives:
-            </p>
-            <ul>
-                <li>
-                    <strong>Reading:</strong> I engage with a diverse spectrum of literature, from timeless classic novels to insightful contemporary non-fiction. This habit not only broadens my intellectual horizons but also stimulates my creativity and critical thinking. By delving into various genres and perspectives, I am constantly learning new concepts and ideas that inspire innovative solutions in my professional work.
-                </li>
-                <li>
-                    <strong>Swimming:</strong> Swimming is a cornerstone of my fitness routine, offering both physical exercise and mental relaxation. This activity helps me stay physically fit and manage stress effectively. The discipline and consistency required in swimming translate to a balanced and focused approach in my professional tasks, fostering resilience and persistence.
-                </li>
-                <li>
-                    <strong>Sports:</strong> I actively participate in a range of sports, which contributes to a well-rounded lifestyle. Engaging in sports helps me maintain physical health and develop essential qualities such as teamwork, strategic thinking, and leadership. These experiences are valuable in fostering collaboration and problem-solving skills in my professional environment.
-                </li>
-                <li>
-                    <strong>Traveling:</strong> Traveling allows me to immerse myself in diverse cultures and environments, broadening my global perspective. Each journey enriches my understanding of different ways of life, fueling my creativity and adaptability. This exposure to new cultures and practices enhances my ability to approach problems from multiple angles and inspires innovative solutions.
-                </li>
-                <li>
-                    <strong>Music:</strong> I have a deep appreciation for a variety of music genres, which provides both relaxation and a creative outlet. Music enhances my mood and helps me unwind, while also fostering creativity. This appreciation for music contributes to a balanced and reflective mindset, which is beneficial in both personal and professional settings.
-                </li>
-                <li>
-                    <strong>Volunteering:</strong> Participating in community service and charitable activities allows me to give back to society and develop a sense of empathy and social responsibility. Volunteering provides opportunities to work on diverse projects and collaborate with different groups, further enhancing my teamwork and leadership skills.
-                </li>
-                <li>
-                    <strong>Technology Exploration:</strong> I am keen on exploring emerging technologies and trends. Staying updated with advancements in the tech industry helps me understand the potential applications of new technologies and their impact on various fields. This interest in technology drives my enthusiasm for continuous learning and innovation in my professional pursuits.
-                </li>
-            </ul>
-        </section>
-        <!-- contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <p><i class="fas fa-envelope"></i> manahilkhalid725@gmail.com</p>
-            <p><i class="fas fa-phone"></i> +92 3356300648</p>
-        </section>
-        <section id="social-media">
-            <h2>Social Media</h2>
-            <p>Follow me on LinkedIn for professional updates and networking:</p>
-            <p>
-                <a href="https://www.linkedin.com/in/manahil-khalid-49453431a/" target="_blank">
-                    LinkedIn Profile
-                </a>
-            </p>
-            <p>
-                <a href="https://www.instagram.com/manahilkhalid._.mk/?hl=en" target="_blank">
-                    Instagram Profile
-                </a>
-            </p>
-        </section>
-        <!-- certificate Section -->
-        <section id="certifications">
-            <h2>Certifications & Competitions</h2>
-            <ul>
-                <li>
-                    <strong>ITU Code Rush</strong> - <em>Coding Competition</em>
-                    <p>
-                        In the ITU Code Rush competition, I engaged in a highly esteemed and rigorous coding challenge that attracts top programming talent. This competition is renowned for its demanding problems, which test participants' abilities in algorithmic thinking, code efficiency, and innovative problem-solving.
-                    </p>
-                    <p>
-                        Throughout the event, I tackled a variety of complex algorithmic problems, which required a deep understanding of data structures, algorithms, and computational complexity. The competition format included solving multiple problems under tight time constraints, which honed my ability to think critically and manage stress effectively. Each problem presented unique challenges that necessitated creative and optimized solutions, pushing me to leverage advanced programming techniques and refine my coding skills.
-                    </p>
-                    <p>
-                        My participation not only demonstrated my proficiency in developing and implementing efficient algorithms but also showcased my adaptability in a high-pressure environment. The experience was instrumental in enhancing my problem-solving capabilities, improving my time management skills, and gaining exposure to competitive programming practices. It also provided a platform for networking with peers and professionals, offering insights into industry trends and practices.
-                    </p>
-                    <p>
-                        Overall, ITU Code Rush was a valuable opportunity to test and expand my technical skills, engage with a community of talented programmers, and gain recognition for my problem-solving acumen.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <!-- skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="hard-skills">
-                    <h3>Hard Skills</h3>
-                    <ul>
-                        <li><strong>C++:</strong> Proficient in developing robust applications and implementing complex algorithms.</li>
-                        <li><strong>C#:</strong> Experienced in creating Windows applications and game development.</li>
-                        <li><strong>Python:</strong> Skilled in scripting, automation, and data analysis.</li>
-                        <li><strong>C:</strong> Knowledgeable in system-level programming and performance optimization.</li>
-                        <li><strong>HTML:</strong> Expertise in creating semantic and accessible web content.</li>
-                        <li><strong>CSS:</strong> Proficient in designing responsive and visually appealing web layouts.</li>
-                        <li><strong>PHP:</strong> Experienced in server-side scripting and web application development.</li>
-                        <li><strong>MySQL:</strong> Skilled in database design, management, and query optimization.</li>
-                    </ul>
-                </div>
-                <div class="soft-skills">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li><strong>Analytical Skills:</strong> Adept at dissecting complex problems and developing effective solutions.</li>
-                        <li><strong>Problem-solving:</strong> Strong ability to tackle challenges creatively and efficiently.</li>
-                        <li><strong>Leadership:</strong> Demonstrated capability in leading projects and guiding teams to success.</li>
-                        <li><strong>Graphic Design:</strong> Skilled in creating engaging and user-friendly design elements.</li>
-                        <li><strong>Communication:</strong> Effective at conveying technical concepts and collaborating with diverse teams.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <section id="education"></section>
+        <section id="projects"></section>
+        <section id="skills"></section>
+        <section id="hobbies"></section>
+        <section id="contact"></section>
+        <section id="social-media"></section>
+        <section id="certifications"></section>
     </div>
-    <script src="Part_A.js"></script>
 </body>
 </html>
